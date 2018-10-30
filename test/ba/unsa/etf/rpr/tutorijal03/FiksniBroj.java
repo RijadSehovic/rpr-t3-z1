@@ -10,7 +10,7 @@ public class FiksniBroj extends TelefonskiBroj {
     }
     @Override
     public String ispisi() {
-        return String.format("%d. %s/%s - %s", int(grad), grad.getPozivni(),broj.substring(0,3),broj.substring(4,6));
+        return String.format("%s/%s - %s", grad.getPozivni(),broj.substring(0,3),broj.substring(4,6));
     }
 
 }
