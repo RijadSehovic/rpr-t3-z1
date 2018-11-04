@@ -9,7 +9,7 @@ public class MobilniBroj extends TelefonskiBroj {
         this.broj = broj;
     }
     @Override
-    String ispisi(){
+    public String ispisi(){
         final String format = String.format("0%d-%s", mobilnaMreza, broj);
         return format;
     }
